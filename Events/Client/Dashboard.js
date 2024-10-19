@@ -52,7 +52,7 @@ module.exports = {
           index: async ({ req, res, config }) => {
             return {
               values: [],
-              graph: {}, // More info at https://dbd-docs.assistantscenter.com/soft-ui/docs/customThemeOptions/
+              graph: {}, 
               cards: [],
             }
           }
@@ -105,11 +105,10 @@ module.exports = {
           {
             category: "Information",
             subTitle: "subTitle",
-            categoryId: "information-cate", // No spaces or special characters
-
-            hideAlias: true, // Optional - Default: false - Hides the alias from all commands in the category
-            hideDescription: false, // Optional - Default: false - Hides the description from all commands in the category
-            hideSidebarItem: false, // Optional - Default: false - Hides the category from the sidebar
+            categoryId: "information-cate",
+            hideAlias: true, 
+            hideDescription: false, 
+            hideSidebarItem: false, 
             list: [
               {
                 commandName: "ping",
@@ -136,9 +135,9 @@ module.exports = {
             subTitle: "subTitle",
             categoryId: "moderation-cate", // No spaces or special characters
 
-            hideAlias: true, // Optional - Default: false - Hides the alias from all commands in the category
-            hideDescription: false, // Optional - Default: false - Hides the description from all commands in the category
-            hideSidebarItem: false, // Optional - Default: false - Hides the category from the sidebar
+            hideAlias: true, 
+            hideDescription: false, 
+            hideSidebarItem: false, 
             list: [
               {
                 commandName: "ban",
