@@ -14,3 +14,5 @@ you can add more cmd and link them to you dashboard
 SUBSCRIBE my channel:
 
 https://www.youtube.com/@cyborggamer354
+
+You have a problem contact me DISCORD: cyborg_exe
