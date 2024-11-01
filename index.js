@@ -6,6 +6,18 @@ const { glob } = require('glob')
 const PG = promisify(glob)
 const Ascii = require('ascii-table')
 require('dotenv').config()
+
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 4000;
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
 const { Channel, GuildMember, Message, Reaction, ThreadMember, User, GuildScheduledEvent } = Partials
 const client = new Client({
     intents: 131071,
